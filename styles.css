@@ -1,0 +1,77 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Bubble background color for agent messages */
+df-messenger {
+  --df-messenger-bot-message: #232f3e;
+}
+
+/* Color for the floating button and the titlebar of the chat dialog */
+df-messenger {
+  --df-messenger-button-titlebar-color: #232f3e;
+}
+
+/* Font color for the title in the titlebar */
+df-messenger {
+  --df-messenger-button-titlebar-font-color: #ffffff;
+}
+
+/* Color for the chat dialog background */
+df-messenger {
+  --df-messenger-chat-background-color: #f0f2f5;
+}
+
+/* Font color for messages */
+df-messenger {
+  --df-messenger-font-color: #ffffff;
+}
+
+/* Background color for the text input box */
+df-messenger {
+  --df-messenger-input-box-color: #ffffff;
+}
+
+/* Font color for the text input box */
+df-messenger {
+  --df-messenger-input-font-color: #232f3e;
+}
+
+/* Font color for placeholder text in text input box */
+df-messenger {
+  --df-messenger-input-placeholder-font-color: #8d99ae;
+}
+
+/* Color of the close icon in the closed chat view */
+df-messenger {
+  --df-messenger-minimized-chat-close-icon-color: #232f3e;
+}
+
+/* Color of the send icon in the text input box */
+df-messenger {
+  --df-messenger-send-icon: #232f3e;
+}
+
+/* Font color for user messages */
+df-messenger {
+  --df-messenger-user-message: #232f3e;
+}
